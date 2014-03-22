@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Structural\Facade\Facade.cs" />
     <Compile Include="Structural\Decorator\Client.cs" />
     <Compile Include="Structural\Decorator\Component.cs" />
     <Compile Include="Structural\Decorator\ConcreteComponent.cs" />
@@ -87,6 +88,10 @@
     <Compile Include="Creational\Prototype\Prototype1.cs" />
     <Compile Include="Creational\Singleton\Singleton.cs" />
     <Compile Include="Structural\Adapter\Target.cs" />
+    <Compile Include="Structural\Facade\SubSystemFour.cs" />
+    <Compile Include="Structural\Facade\SubSystemOne.cs" />
+    <Compile Include="Structural\Facade\SubSystemThree.cs" />
+    <Compile Include="Structural\Facade\SubSystemTwo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Creational\AbstractFactory\AbstractFactoryDiagram.cd" />
@@ -98,6 +103,7 @@
     <None Include="Structural\Bridge\BridgeDiagram.cd" />
     <None Include="Structural\Composite\CompositeDiagram.cd" />
     <None Include="Structural\Decorator\DecoratorDiagram.cd" />
+    <None Include="Structural\Facade\FacadeDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioural\" />
