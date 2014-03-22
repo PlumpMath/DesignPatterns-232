@@ -12,8 +12,8 @@ namespace DesignPatterns.Structural.Adapter
         public void Run()
         {            
             Target target = new Adapter();
-
             target.Request();
+            Console.ReadKey();
         }
     }
 }
