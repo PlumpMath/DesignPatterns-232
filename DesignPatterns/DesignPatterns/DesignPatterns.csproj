@@ -39,6 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Structural\Adapter\Adaptee.cs" />
+    <Compile Include="Structural\Adapter\Adapter.cs" />
+    <Compile Include="Structural\Adapter\Client.cs" />
     <Compile Include="Creational\Prototype\Client.cs" />
     <Compile Include="Creational\Builder\Builder.cs" />
     <Compile Include="Creational\Builder\ConcreteBuilder2.cs" />
@@ -67,6 +70,7 @@
     <Compile Include="Creational\Prototype\Prototype.cs" />
     <Compile Include="Creational\Prototype\Prototype1.cs" />
     <Compile Include="Creational\Singleton\Singleton.cs" />
+    <Compile Include="Structural\Adapter\Target.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Creational\AbstractFactory\AbstractFactoryDiagram.cd" />
@@ -74,10 +78,10 @@
     <None Include="Creational\FactoryMethod\FactoryMethodDiagram.cd" />
     <None Include="Creational\Prototype\PrototypeDiagram.cd" />
     <None Include="Creational\Singleton\SingletonDiagram.cd" />
+    <None Include="Structural\Adapter\AdapterDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioural\" />
-    <Folder Include="Structural\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
