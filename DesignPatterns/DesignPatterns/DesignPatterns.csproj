@@ -43,6 +43,11 @@
     <Compile Include="Behavioural\ChainOfResponsability\ConcreteHandler2.cs" />
     <Compile Include="Behavioural\ChainOfResponsability\ConcreteHandler1.cs" />
     <Compile Include="Behavioural\ChainOfResponsability\Handler.cs" />
+    <Compile Include="Behavioural\Command\Client.cs" />
+    <Compile Include="Behavioural\Command\Command.cs" />
+    <Compile Include="Behavioural\Command\ConcreteCommand.cs" />
+    <Compile Include="Behavioural\Command\Invoker.cs" />
+    <Compile Include="Behavioural\Command\Receiver.cs" />
     <Compile Include="Structural\Proxy\Client.cs" />
     <Compile Include="Structural\Proxy\Proxy.cs" />
     <Compile Include="Structural\Proxy\RealSubject.cs" />
@@ -108,6 +113,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Behavioural\ChainOfResponsability\ChainOfResponsabilityDiagram.cd" />
+    <None Include="Behavioural\Command\CommandDiagram.cd" />
     <None Include="Creational\AbstractFactory\AbstractFactoryDiagram.cd" />
     <None Include="Creational\Builder\BuilderDiagram.cd" />
     <None Include="Creational\FactoryMethod\FactoryMethodDiagram.cd" />
