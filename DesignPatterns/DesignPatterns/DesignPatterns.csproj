@@ -55,6 +55,12 @@
     <Compile Include="Common\IClient.cs" />
     <Compile Include="Creational\Builder\Director.cs" />
     <Compile Include="Creational\Builder\Product.cs" />
+    <Compile Include="Creational\FactoryMethod\Creator.cs" />
+    <Compile Include="Creational\FactoryMethod\Creator2.cs" />
+    <Compile Include="Creational\FactoryMethod\Creator1.cs" />
+    <Compile Include="Creational\FactoryMethod\Product.cs" />
+    <Compile Include="Creational\FactoryMethod\Product2.cs" />
+    <Compile Include="Creational\FactoryMethod\Product1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
