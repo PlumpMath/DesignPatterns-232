@@ -5,7 +5,7 @@ using System.Text;
 
 using DesignPatterns.Common;
 
-namespace DesignPatterns
+namespace DesignPatterns.Structural.Proxy
 {
     public class Client : IClient
     {
