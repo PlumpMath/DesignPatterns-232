@@ -7,6 +7,7 @@ namespace DesignPatterns.Structural.Adapter
 {
     public class Adaptee
     {
+        //comment
         public void SpecificRequest()
         {
             Console.WriteLine("Called SpecificRequest()");
