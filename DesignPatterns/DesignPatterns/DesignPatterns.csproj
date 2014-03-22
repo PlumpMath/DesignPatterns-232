@@ -39,6 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Structural\Decorator\Client.cs" />
+    <Compile Include="Structural\Decorator\Component.cs" />
+    <Compile Include="Structural\Decorator\ConcreteComponent.cs" />
+    <Compile Include="Structural\Decorator\ConcreteDecoratorB.cs" />
+    <Compile Include="Structural\Decorator\ConcreteDecoratorA.cs" />
+    <Compile Include="Structural\Decorator\Decorator.cs" />
     <Compile Include="Structural\Composite\Client.cs" />
     <Compile Include="Structural\Composite\Component.cs" />
     <Compile Include="Structural\Composite\Composite.cs" />
@@ -91,6 +97,7 @@
     <None Include="Structural\Adapter\AdapterDiagram.cd" />
     <None Include="Structural\Bridge\BridgeDiagram.cd" />
     <None Include="Structural\Composite\CompositeDiagram.cd" />
+    <None Include="Structural\Decorator\DecoratorDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioural\" />
