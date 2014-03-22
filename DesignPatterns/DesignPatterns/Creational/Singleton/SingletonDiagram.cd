@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Notes:&#xD;&#xA;- private static instance&#xD;&#xA;- protected constructor&#xD;&#xA;- static method to retrieve instance&#xD;&#xA;- add thread-safe using an object&#xD;&#xA;   private static object syncLock = new object();&#xD;&#xA;   ...&#xD;&#xA;   lock (syncLock) {}">
+    <Position X="5.99" Y="0.729" Height="1.49" Width="3.304" />
+  </Comment>
+  <Class Name="DesignPatterns.Creational.Singleton.Singleton">
+    <Position X="3.25" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Creational\Singleton\Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
