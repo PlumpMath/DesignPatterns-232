@@ -2,3 +2,7 @@ obj/
 bin/
 DesignPatternsTestConsole/DesignPatternsTestConsole
 .gitignore
+DesignPatterns/DesignPatterns/Structural/Proxy/Subject.cs.BACKUP.17564.cs
+DesignPatterns/DesignPatterns/Structural/Proxy/Subject.cs.BASE.17564.cs
+DesignPatterns/DesignPatterns/Structural/Proxy/Subject.cs.LOCAL.17564.cs
+DesignPatterns/DesignPatterns/Structural/Proxy/Subject.cs.REMOTE.17564.cs

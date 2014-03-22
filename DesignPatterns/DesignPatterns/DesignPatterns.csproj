@@ -39,6 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioural\ChainOfResponsability\Client.cs" />
+    <Compile Include="Behavioural\ChainOfResponsability\ConcreteHandler2.cs" />
+    <Compile Include="Behavioural\ChainOfResponsability\ConcreteHandler1.cs" />
+    <Compile Include="Behavioural\ChainOfResponsability\Handler.cs" />
     <Compile Include="Structural\Proxy\Client.cs" />
     <Compile Include="Structural\Proxy\Proxy.cs" />
     <Compile Include="Structural\Proxy\RealSubject.cs" />
@@ -103,6 +107,7 @@
     <Compile Include="Structural\Proxy\Subject.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Behavioural\ChainOfResponsability\ChainOfResponsabilityDiagram.cd" />
     <None Include="Creational\AbstractFactory\AbstractFactoryDiagram.cd" />
     <None Include="Creational\Builder\BuilderDiagram.cd" />
     <None Include="Creational\FactoryMethod\FactoryMethodDiagram.cd" />
@@ -116,9 +121,7 @@
     <None Include="Structural\Flyweight\FlyWeightDiagram.cd" />
     <None Include="Structural\Proxy\ProxyDiagram.cd" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Behavioural\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
