@@ -39,6 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Structural\Flyweight\Client.cs" />
+    <Compile Include="Structural\Flyweight\ConcreteFlyweight.cs" />
+    <Compile Include="Structural\Flyweight\Flyweight.cs" />
+    <Compile Include="Structural\Flyweight\FlyweightFactory.cs" />
     <Compile Include="Structural\Facade\Facade.cs" />
     <Compile Include="Structural\Decorator\Client.cs" />
     <Compile Include="Structural\Decorator\Component.cs" />
@@ -92,6 +96,7 @@
     <Compile Include="Structural\Facade\SubSystemOne.cs" />
     <Compile Include="Structural\Facade\SubSystemThree.cs" />
     <Compile Include="Structural\Facade\SubSystemTwo.cs" />
+    <Compile Include="Structural\Flyweight\UnsharedConcreteFlyweight.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Creational\AbstractFactory\AbstractFactoryDiagram.cd" />
@@ -104,6 +109,7 @@
     <None Include="Structural\Composite\CompositeDiagram.cd" />
     <None Include="Structural\Decorator\DecoratorDiagram.cd" />
     <None Include="Structural\Facade\FacadeDiagram.cd" />
+    <None Include="Structural\Flyweight\FlyWeightDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioural\" />
