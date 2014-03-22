@@ -39,6 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Structural\Composite\Client.cs" />
+    <Compile Include="Structural\Composite\Component.cs" />
+    <Compile Include="Structural\Composite\Composite.cs" />
+    <Compile Include="Structural\Composite\Leaf.cs" />
     <Compile Include="Structural\Bridge\Abstraction.cs" />
     <Compile Include="Structural\Bridge\Client.cs" />
     <Compile Include="Structural\Bridge\Implementor.cs" />
@@ -86,6 +90,7 @@
     <None Include="Creational\Singleton\SingletonDiagram.cd" />
     <None Include="Structural\Adapter\AdapterDiagram.cd" />
     <None Include="Structural\Bridge\BridgeDiagram.cd" />
+    <None Include="Structural\Composite\CompositeDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioural\" />
