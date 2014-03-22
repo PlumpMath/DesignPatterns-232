@@ -39,6 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Structural\Bridge\Abstraction.cs" />
+    <Compile Include="Structural\Bridge\Client.cs" />
+    <Compile Include="Structural\Bridge\Implementor.cs" />
+    <Compile Include="Structural\Bridge\Implementor1.cs" />
+    <Compile Include="Structural\Bridge\Implementor2.cs" />
+    <Compile Include="Structural\Bridge\RefinedAbstraction.cs" />
     <Compile Include="Structural\Adapter\Adaptee.cs" />
     <Compile Include="Structural\Adapter\Adapter.cs" />
     <Compile Include="Structural\Adapter\Client.cs" />
@@ -79,6 +85,7 @@
     <None Include="Creational\Prototype\PrototypeDiagram.cd" />
     <None Include="Creational\Singleton\SingletonDiagram.cd" />
     <None Include="Structural\Adapter\AdapterDiagram.cd" />
+    <None Include="Structural\Bridge\BridgeDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioural\" />
