@@ -39,9 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Client.cs" />
-    <Compile Include="Proxy.cs" />
-    <Compile Include="RealSubject.cs" />
+    <Compile Include="Structural\Proxy\Client.cs" />
+    <Compile Include="Structural\Proxy\Proxy.cs" />
+    <Compile Include="Structural\Proxy\RealSubject.cs" />
     <Compile Include="Structural\Flyweight\Client.cs" />
     <Compile Include="Structural\Flyweight\ConcreteFlyweight.cs" />
     <Compile Include="Structural\Flyweight\Flyweight.cs" />
@@ -100,7 +100,7 @@
     <Compile Include="Structural\Facade\SubSystemThree.cs" />
     <Compile Include="Structural\Facade\SubSystemTwo.cs" />
     <Compile Include="Structural\Flyweight\UnsharedConcreteFlyweight.cs" />
-    <Compile Include="Subject.cs" />
+    <Compile Include="Structural\Proxy\Subject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Creational\AbstractFactory\AbstractFactoryDiagram.cd" />
