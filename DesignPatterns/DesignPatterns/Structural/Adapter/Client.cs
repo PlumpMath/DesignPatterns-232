@@ -14,7 +14,6 @@ namespace DesignPatterns.Structural.Adapter
             Target target = new Adapter();
 
             target.Request();
-
         }
     }
 }

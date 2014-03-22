@@ -13,6 +13,7 @@ namespace DesignPatterns.Structural.Adapter
 
         public override void Request()
         {
+            Console.WriteLine("Called Adapter Request()");
             _adaptee.SpecificRequest();
         }
     }

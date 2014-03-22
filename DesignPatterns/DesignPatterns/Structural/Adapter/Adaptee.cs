@@ -9,7 +9,7 @@ namespace DesignPatterns.Structural.Adapter
     {
         public void SpecificRequest()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Called SpecificRequest()");
         }
     }
 }
