@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Creational\Prototype\Client.cs" />
     <Compile Include="Creational\Builder\Builder.cs" />
     <Compile Include="Creational\Builder\ConcreteBuilder2.cs" />
     <Compile Include="Creational\Builder\ConcreteBuilder1.cs" />
@@ -61,12 +62,16 @@
     <Compile Include="Creational\FactoryMethod\Product.cs" />
     <Compile Include="Creational\FactoryMethod\Product2.cs" />
     <Compile Include="Creational\FactoryMethod\Product1.cs" />
+    <Compile Include="Creational\Prototype\Prototype2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Creational\Prototype\Prototype.cs" />
+    <Compile Include="Creational\Prototype\Prototype1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Creational\AbstractFactory\AbstractFactoryDiagram.cd" />
     <None Include="Creational\Builder\BuilderDiagram.cd" />
     <None Include="Creational\FactoryMethod\FactoryMethodDiagram.cd" />
+    <None Include="Creational\Prototype\PrototypeDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioural\" />
