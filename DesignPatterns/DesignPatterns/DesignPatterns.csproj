@@ -66,12 +66,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Creational\Prototype\Prototype.cs" />
     <Compile Include="Creational\Prototype\Prototype1.cs" />
+    <Compile Include="Creational\Singleton\Singleton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Creational\AbstractFactory\AbstractFactoryDiagram.cd" />
     <None Include="Creational\Builder\BuilderDiagram.cd" />
     <None Include="Creational\FactoryMethod\FactoryMethodDiagram.cd" />
     <None Include="Creational\Prototype\PrototypeDiagram.cd" />
+    <None Include="Creational\Singleton\SingletonDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioural\" />
